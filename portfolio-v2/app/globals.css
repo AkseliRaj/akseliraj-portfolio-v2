@@ -12,6 +12,13 @@
   --color-outline: #EBEBEB;
 }
 
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
 body {
   color: var(--foreground);
   letter-spacing: -0.6px;
