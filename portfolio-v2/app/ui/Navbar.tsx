@@ -9,7 +9,7 @@ import Logo from "../../public/catIcon.svg";
 
 export default function Navbar() {
     return (
-        <nav className="flex items-center justify-around mt-4">
+        <nav className="flex items-center justify-around my-7">
             <div>
                 <NavbarLogo 
                 Logo={Logo}

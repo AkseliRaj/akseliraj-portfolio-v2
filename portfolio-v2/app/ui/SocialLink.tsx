@@ -19,5 +19,5 @@ export default function SocialLink({ icon, linkText, link }: SocialLinkProps) {
             <Image className="size-4" src={icon} alt="" />
             <span>{linkText}</span>
         </a>
-    );
+    );  
 }
